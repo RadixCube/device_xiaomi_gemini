@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.gemini
 
 # Input
+TARGET_USES_HARDWARE_KEYS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc
 
