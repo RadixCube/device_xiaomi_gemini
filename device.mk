@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # ConfigPanel
 PRODUCT_PACKAGES += \
-    ConfigPanel
+    DeviceFeatures
 
 # Consumer IR
 PRODUCT_PACKAGES += \
